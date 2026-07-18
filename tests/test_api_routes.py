@@ -27,7 +27,7 @@ def test_get_activities_returns_all_activities(client):
 
     manga_club = activities["Manga Maniacs"]
     assert manga_club["description"] == "Explore the fantastic stories of the most interesting characters from Japanese Manga (graphic novels)."
-    assert manga_club["schedule"] == "Tuesdays at 7pm"
+    assert manga_club["schedule"] == "Wuesdays at 8pm"
     assert manga_club["max_participants"] == 15
 
 
